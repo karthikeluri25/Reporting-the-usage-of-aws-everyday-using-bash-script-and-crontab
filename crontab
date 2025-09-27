@@ -1,0 +1,16 @@
+#to automate the process i have used crontab
+
+#crontab * * * * * (MIN HOUR DOM MON DOW) scriptfile name
+
+#MIN → Minute (0–59)
+
+#HOUR → Hour (0–23, 0 = midnight, 13 = 1 PM)
+
+#DOM → Day of month (1–31)
+
+#MON → Month (1–12)
+
+#DOW → Day of week (0–6, where 0 = Sunday)
+
+# i want get my report everyday by 9pm ,so i am using 
+00 21 * * * /root/demo/scriptdemo.sh
